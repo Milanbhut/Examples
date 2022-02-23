@@ -1,9 +1,9 @@
 /* ===============Fixed Header============== */
-$(window).scroll(function(){
-    if ($(window).scrollTop() >= 500) {
-      $('header').addClass('fixed');
+jQuery(window).scroll(function(){
+    if (jQuery(window).scrollTop() >= 500) {
+        jQuery('header').addClass('fixed');
     }
     else {
-      $('header').removeClass('fixed');
+        jQuery('header').removeClass('fixed');
     }
 });
